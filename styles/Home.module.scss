@@ -1,0 +1,139 @@
+.center {
+    @media (max-width: 990px) {
+        width: 90%;
+    }
+    width: 40%;
+    min-height: 50px;
+    margin: 30px auto;
+}
+.header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    .left {
+        width: 50%;
+        min-height: 50px;
+        font-weight: bold;
+        color: var(--text-color);
+    }
+    .right {
+        width: 50%;
+        min-height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        img {
+            max-width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 0;
+            padding-bottom: 0;
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: 0;
+            margin-bottom: 1.75rem;
+        }
+    }
+}
+
+.person {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    .image {
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+    }
+    .text {
+        min-height: 50px;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        flex-wrap: wrap;
+        color: var(--text-color);
+        a {
+            color: #d23669;
+            margin-left: 5px;
+            text-decoration: underline;
+        }
+        div {
+            width: 100%;
+        }
+    }
+}
+.posts {
+    width: 100%;
+    min-height: 50px;
+    margin-top: 50px;
+    .post {
+        width: 100%;
+        min-height: 50px;
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        .title {
+            width: 100%;
+            min-height: 30px;
+            color: #d23669;
+            font-size: 28px;
+            h3 {
+                margin: 0;
+                padding: 0;
+                line-height: 35px;
+            }
+        }
+        .date {
+            width: 100%;
+            min-height: 20px;
+            font-size: 12px;
+        }
+        .text {
+            width: 100%;
+            min-height: 30px;
+            margin-top: 5px;
+            color: var(--text-color);
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 50px;
+    .left {
+        width: 50%;
+        min-height: 50px;
+        display: flex;
+        align-items: center;
+        a {
+            color: #d23669;
+            margin-right: 5px;
+            margin-left: 5px;
+            text-decoration: underline;
+        }
+    }
+    .right {
+        width: 50%;
+        min-height: 50px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        a {
+            color: #d23669;
+            text-decoration: underline;
+        }
+    }
+}
